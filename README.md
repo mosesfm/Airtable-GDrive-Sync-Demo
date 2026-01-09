@@ -20,7 +20,7 @@ You’ll need a project in the Google Cloud console with the Google Drive API en
 2. Airtable Environment Variables (Secrets)
 Airtable provides a secure way to handle credentials so you aren't hardcoding secrets into your script. In the Airtable Script editor, look for the Secrets menu in the left sidebar.
 
-Add three secrets:
+3. Add three secrets:
 
 - GOOGLE_CLIENT_ID
 
@@ -28,7 +28,7 @@ Add three secrets:
 
 - GOOGLE_REFRESH_TOKEN
 
-3. Automation Trigger & Input
+4. Automation Trigger & Input
 - Set up an Airtable Automation ("When a record matches conditions").
 
 - Add a run script action.
@@ -37,7 +37,7 @@ Add three secrets:
 
 - **Copy/paste the code from this repo (airtable-gdrive.js) into the script editor.**
 
-4. Script Configuration
+5. Script Configuration
 At the top of the script, there is a CONFIG object. Update these values to match your specific table and field names:
 
 - tableName: The name of the table you’re working in.
