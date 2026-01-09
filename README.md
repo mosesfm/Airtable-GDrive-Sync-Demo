@@ -1,4 +1,4 @@
-# For when you want Airtable to automatically create Google Drive folders
+# Trigger Airtable to automatically create Google Drive folders
 
 This script automates the creation of Google Drive folders based on Airtable records. It’s designed to run inside an Airtable automation, grabbing a folder name from a specific field and saving the resulting Drive link back to your table.
 
